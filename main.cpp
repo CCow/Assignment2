@@ -51,9 +51,6 @@ int main(int argc, char** argv){
       cout << "User Provided Map: \n"+ gOL->returnMap() << endl;
 
       controller++;
-
-
-
     }
 
     //generating a random grid given height/width
@@ -98,11 +95,10 @@ int main(int argc, char** argv){
   }
 
   while(controller == 3){
-    cout << "Would you like a brief pause between generations (p) : ";
+    cout << "Would you like a brief pause between generations (p), \nPress enter after every generation (e)\nOutput to a file (o)\n Enter here: ";
     cin >> input;
 
   }
-
   delete gOL;
   return 0;
 }
