@@ -1,6 +1,5 @@
 # GameOfLife Assignment2
-Connor Cowher & Corey Spielman
-2322777         2316074
+Connor Cowher 2322777 & Corey Spielman 2316074
 
 Makefile: make all, ./a.out
 
